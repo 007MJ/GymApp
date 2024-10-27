@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* nav  */
+a {text-decoration: none;}
+
+.place {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: #1F2937;
+    height: 450px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.links ul li {
+    margin: 10px;
+}
+
+.menu-img img , .menu-text{
+    width: 600px;
+    height: 300px;
+}
+
+.menu-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.menu-text p, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.menu-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0px 30px 0px;
+}
+.btn {
+    margin: 10px 0px;
+}
+
+.menu-text a {
+    text-decoration: none;
+    background-color: #3882F6;
+    padding: 5px 10px 5px 10px;
+    border-radius:5px;
+}
+
+/* end */
+
+/*  main*/
+/* main-info */
+.main-info{
+    margin: 40px 0px 100px 0px;
+}
+.title{
+    width: 300px;
+    margin: auto;
+}
+
+.info-card {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+}
+
+.pic img{
+    border: 2px solid #3882F6;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.info-text {
+    text-align: center;
+    width: 150px;
+    margin-top: 10px;
+}
+
+/* main-text */
+.main-text{
+    width: 900px;
+    margin: auto;
+    padding: 40px;
+}
+.bg-main-text{
+    background-color: #E5E7EB;
+}
+
+.text p{
+    font-family: "Kavivanar", cursive;
+    font-size: 36px;
+    color: #1F2937;
+
+}
+.end-text {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.end-text p {
+    font-size: 36px;
+    font-weight: 200px;
+    color: #1F2937;
+}
+.sign-up {
+    background-color: #3882F6;
+    width: 900px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius:10px ;
+}
+.sign-up-info {
+    width: 700px;
+}
+
+.move-up{
+    margin: 100px 100px;
+}
+
+.btn-sign-up {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+.btn-sign-up a {
+    text-decoration: none;
+}
+/* end */
+
+
+/* footer */
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    height: 90px;
+    padding: 40px;
+    color: #fff;
+}
+/* end */
